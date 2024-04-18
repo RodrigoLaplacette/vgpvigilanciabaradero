@@ -1,0 +1,166 @@
+.portadainicio{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    img{
+        text-align: center;
+        width: 100%;
+        filter: brightness(0.5);
+    }
+    h1{
+        position: absolute;
+        width: auto;
+        height: auto;
+        z-index: 1;
+        color:rgb(255, 255, 255);
+        font-size: 30px;
+        padding: 50px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Añade una sombra */
+    }
+    .btnservicios{
+        background-color: yellowgreen;
+        font-size: 12px;
+        text-decoration: none;
+        position: absolute;
+        width: auto;
+        height: 40px;
+        z-index: 1;
+        margin-top: 160px;
+        border-radius: 5px;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Añade una sombra */
+        &:hover{
+            background-color: rgb(160, 160, 25);
+            cursor: pointer;
+        }
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+    }
+}
+
+.nosotroscontainer{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    h3{
+        color: yellowgreen;
+    }
+    img{
+        width: 60%;
+    }
+}
+
+.servicioscontainer{
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    h3{
+        color: yellowgreen;
+    }
+}
+
+.serviciosiconos{
+    display: block;
+    img{
+        width: 50%;
+        margin-top: 50px;
+    }
+}
+
+.trabajamoscontainer{
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    h3{
+        color: yellowgreen;
+    }
+    img{
+        width: 90%;
+    }
+}
+
+.contactoform{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    h3{
+        color: rgb(153, 205, 50);
+    }
+    .btnformulario{
+        background-color: rgb(153, 205, 50);
+        border-radius: 5px;
+        padding: 7px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Añade una sombra */
+        &:hover{
+            background-color: rgb(160, 160, 25);
+            cursor: pointer;
+        }
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+    }
+}
+
+.politicatext{
+    text-align: center;
+    padding: 20px;
+    h3{
+        color: rgb(153, 205, 50);
+    }
+}
+.mision{
+align-items: center;
+text-align: center;
+.misiontext{
+    text-align: center;
+    padding: 20px;
+    h3{
+        color: rgb(153, 205, 50);
+    }
+}
+img{
+    width: 90%;
+}
+}
+
+.mapa{
+    h3{
+        color: rgb(153, 205, 50);
+    }
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.derechos{
+    background-color: rgba(152, 208, 61, 0.542);
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    right: 30px;
+    bottom: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+}

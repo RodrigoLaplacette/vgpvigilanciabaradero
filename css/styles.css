@@ -44,7 +44,7 @@ header {
 }
 .menu ul {
   list-style: none;
-  background-color: yellow;
+  background-color: rgb(255, 255, 0);
   height: 100%;
   width: 150px;
   z-index: 1000;
@@ -482,7 +482,7 @@ footer {
   }
 }
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=Styles.css.map */

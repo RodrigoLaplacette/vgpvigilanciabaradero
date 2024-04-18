@@ -44,7 +44,7 @@ header {
 }
 .menu ul {
   list-style: none;
-  background-color: rgb(226, 255, 3);
+  background-color: yellow;
   height: 100%;
   width: 150px;
   z-index: 1000;
@@ -181,6 +181,7 @@ header {
 .contactoform {
   margin-top: 30px;
   margin-bottom: 30px;
+  padding: 15px;
   text-align: center;
 }
 .contactoform h3 {

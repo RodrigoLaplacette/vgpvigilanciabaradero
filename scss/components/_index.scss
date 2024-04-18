@@ -73,6 +73,10 @@
         width: 50%;
         margin-top: 50px;
     }
+    p{
+        margin-top: 18px;
+        font-size: 20px;
+    }
 }
 
 .trabajamoscontainer{
@@ -164,4 +168,137 @@ img{
     border-radius: 30px;
     text-align: center;
     font-size: 30px;
+}
+
+@media(min-width:600px){
+    .portadainicio{
+        h1{
+            font-size: 50px;
+        }
+        .btnservicios{
+            margin-top: 170px;
+        }
+    }
+}
+
+@media(min-width:769px){
+    .portadainicio{
+        img{
+            height: 450px;
+            object-fit: cover;
+        }
+        h1{
+            margin-bottom: 110px;
+            font-size: 70px;
+        }
+        .btnservicios{
+            margin-top: 200px;
+            width: 300px;
+            height: 45px;
+        }
+    }
+    .nosotroscontainer{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        .nosotrostext{
+            text-align: center;
+            align-items: center;
+            width:100%;
+        }
+        p{
+            padding: 30px;
+        }
+        .nosotrosimg{
+            width:80%;
+        img{
+            width:40%;
+        }
+    }
+    }
+
+    .servicioscontainer{
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        h3{
+            color: yellowgreen;
+        }
+    }
+    
+    .serviciosiconos{
+        display: flex;
+        img{
+            width: 40%;
+            margin-top: 20px;
+        }
+        p{
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
+
+    .trabajamoscontainer{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+        .trabajamostext{
+            width:100%;
+            padding: 50px;
+            p{
+                width: 100%;
+            }
+        }
+        h3{
+            color: yellowgreen;
+        }
+        .trabajamosimg{
+            width: 100%;
+            img{
+            width: 100%;
+            border-radius: 5px;
+            }
+            
+        }
+    }
+
+    .contactoform{
+        margin-top:0px;
+    }
+    .politica{
+        margin: auto;
+        width: 50%;
+    .politicatext{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        h3{
+            color: rgb(153, 205, 50);
+        }
+        p{
+            width: 100%;
+        }
+    }
+}
+
+    .mision{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        .misiontext{
+            text-align: center;
+            padding: 40px;
+            width: 100%;
+        }
+        img{
+            border-radius: 5px;
+        }
+        }
 }

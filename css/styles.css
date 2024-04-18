@@ -87,6 +87,45 @@ header {
   z-index: 9999;
 }
 
+@media (min-width: 769px) {
+  .headercontainer {
+    display: flex;
+    align-items: center;
+    text-align: end;
+  }
+  .menunav {
+    position: absolute;
+    display: flex;
+    width: auto;
+    width: auto;
+    padding-bottom: 0;
+    margin-left: 40%;
+  }
+  .menu {
+    display: flex;
+    position: relative;
+    right: 0;
+    z-index: 0;
+  }
+  .menu ul {
+    display: flex;
+    list-style: none;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+  }
+  .menu.activo {
+    display: flex;
+  }
+  .abrir-menu, .cerrar-menu {
+    display: none;
+  }
+}
 .portadainicio {
   text-align: center;
   align-items: center;
@@ -162,6 +201,10 @@ header {
 .serviciosiconos img {
   width: 50%;
   margin-top: 50px;
+}
+.serviciosiconos p {
+  margin-top: 18px;
+  font-size: 20px;
 }
 
 .trabajamoscontainer {
@@ -255,6 +298,127 @@ header {
   font-size: 30px;
 }
 
+@media (min-width: 600px) {
+  .portadainicio h1 {
+    font-size: 50px;
+  }
+  .portadainicio .btnservicios {
+    margin-top: 170px;
+  }
+}
+@media (min-width: 769px) {
+  .portadainicio img {
+    height: 450px;
+    object-fit: cover;
+  }
+  .portadainicio h1 {
+    margin-bottom: 110px;
+    font-size: 70px;
+  }
+  .portadainicio .btnservicios {
+    margin-top: 200px;
+    width: 300px;
+    height: 45px;
+  }
+  .nosotroscontainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .nosotroscontainer .nosotrostext {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .nosotroscontainer p {
+    padding: 30px;
+  }
+  .nosotroscontainer .nosotrosimg {
+    width: 80%;
+  }
+  .nosotroscontainer .nosotrosimg img {
+    width: 40%;
+  }
+  .servicioscontainer {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .servicioscontainer h3 {
+    color: yellowgreen;
+  }
+  .serviciosiconos {
+    display: flex;
+  }
+  .serviciosiconos img {
+    width: 40%;
+    margin-top: 20px;
+  }
+  .serviciosiconos p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .trabajamoscontainer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  .trabajamoscontainer .trabajamostext {
+    width: 100%;
+    padding: 50px;
+  }
+  .trabajamoscontainer .trabajamostext p {
+    width: 100%;
+  }
+  .trabajamoscontainer h3 {
+    color: yellowgreen;
+  }
+  .trabajamoscontainer .trabajamosimg {
+    width: 100%;
+  }
+  .trabajamoscontainer .trabajamosimg img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .contactoform {
+    margin-top: 0px;
+  }
+  .politica {
+    margin: auto;
+    width: 50%;
+  }
+  .politica .politicatext {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .politica .politicatext h3 {
+    color: rgb(153, 205, 50);
+  }
+  .politica .politicatext p {
+    width: 100%;
+  }
+  .mision {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .mision .misiontext {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+  }
+  .mision img {
+    border-radius: 5px;
+  }
+}
 footer {
   height: 300px;
   background-color: rgb(255, 255, 0);
@@ -310,6 +474,13 @@ footer {
   margin-top: 20px;
 }
 
+@media (min-width: 769px) {
+  footer {
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

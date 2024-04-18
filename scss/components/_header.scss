@@ -81,3 +81,49 @@ header{
     display: none;
     z-index: 9999;
 }
+
+@media(min-width:769px){
+    .headercontainer{
+        display: flex;
+        align-items: center;
+        text-align: end;
+    }
+    
+    .menunav{
+        position: absolute;
+        display: flex;
+        width:auto;
+        width: auto;
+        padding-bottom: 0;
+        margin-left: 40%;
+    }
+    
+    .menu{
+        display:flex;
+        position: relative;
+        right: 0;
+        z-index: 0;
+        ul{
+            display: flex;
+            list-style: none;
+            background-color: yellow;
+            height:100%;
+            width: 100%;
+            z-index: 0;
+            padding: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-radius: 0;
+        }
+
+    }
+    
+    .menu.activo{
+        display:flex;
+    }
+    
+    .abrir-menu, .cerrar-menu {
+    display: none;
+    }
+
+}
